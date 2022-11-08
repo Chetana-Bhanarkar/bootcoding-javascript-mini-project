@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <Script>
+        // getASquareMinusBSquare(int a, int b){
+        //     // a2 – b2 = (a – b)(a + b)
+        //     // Write logic here to calculate above formula and return result
+        //     } 
+
+        function getASquareMinusBSquare(a, b) {
+            return (a - b) * (a + b);
+        };
+
+        let res = getASquareMinusBSquare(3, 2);
+        console.log(res);
+
+
+
+
+        
+
+        //         getAPlusBWholeSquare(int a, int b){
+        // (a + b)2 = a2 + 2ab + b2.
+        // Write logic here to calculate above formula and return result
+
+        const getAPlusBWholeSquare = (a, b) => {
+            return (a * a) + (2 * a * b) + (b * b);
+        }
+
+        let res2 = getAPlusBWholeSquare(3, 4);
+        console.log(res2);
+
+
+
+
+
+
+        //         getASquarePlusBSquare(int a, int b){
+        // a2+ b2 = (a + b)2 – 2ab
+        // Write logic here to calculate above formula and return result
+        // let a = prompt('enter first number');
+        // let b = prompt('enter second number');
+        const getASquarePlusBSquare = function (a, b) {
+            return ((a + b) * 2) - (2 * a * b);
+        };
+
+        let res3 = getASquarePlusBSquare(4, 6);
+        console.log(res3);
+
+
+
+
+
+
+
+        //         getAMinusBWholeSquare(int a, int b){
+        //             (a – b) 2 = a2 – 2ab + b2.
+        // Write logic here to calculate above formula and return result
+
+        const getAMinusBWholeSquare = function (a, b) {
+            return ((a - b) * 2) - ((a * a) - (2 * a * b) + (b * b));
+        };
+
+        let res4 = getAMinusBWholeSquare(1, 2);
+        console.log(res4);
+
+
+
+
+
+        //         getAPlusBPlusCWholeSquare(int a, int b, int c){
+        // (a + b + c)2 = a2 + b2 + c2 + 2ab + 2bc + 2ca
+        // Write logic here to calculate above formula and return result
+
+        const getAPlusBPlusCWholeSquare = (a, b, c) => {
+            return (a * a) + (b * b) + (c * c) + (2 * a * b) + (2 * b * c) + (2 * c * a);
+
+        };
+
+        console.log(getAPlusBPlusCWholeSquare(2, 3, 4));
+
+
+
+
+
+        //         getAMinusBMinusCWholeSquare(int a, int b, int c){
+        // (a – b – c)2 = a2 + b2 + c2 – 2ab + 2bc – 2ca
+        // Write logic here to calculate above formula and return result
+
+        const getAMinusBMinusCWholeSquare = (a, b, c) => {
+            return ((a * a) + (b * b) + (c * c) - (2 * a * b) + (2 * b * c) - (2 * c * a));
+        };
+
+        console.log(getAMinusBMinusCWholeSquare(2, 3, 4));
+
+
+
+
+
+        //     getAPlusBCube(int a, int b){
+        // // (a + b)3 = a3 + 3a2b + 3ab2 + b2
+        // // Write logic here to calculate above formula and return result
+
+        const getAPlusBCube = (a, b) => {
+            return (a * a * a) + (3 * (a * a) * b) + (3 * a * (b * b)) + (b * b);
+        }
+
+        console.log(getAPlusBCube(2, 3));
+
+
+
+
+
+
+        // getAMinuBCube(int a, int b){
+        // (a – b)3 = a3 – 3a2b + 3ab2 – b3
+        // Write logic here to calculate above formula and return result
+
+        const getAMinuBCube = (a, b) => {
+            return (a * a * a) - (3 * (a * a) * b) + (3 * a * (b * b) - (b * b * b));
+        }
+
+        console.log(getAMinuBCube(4, 5));
+    </Script>
+
+
+
+</body>
+
+</html>
