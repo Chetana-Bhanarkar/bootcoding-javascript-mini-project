@@ -12,7 +12,7 @@
 // }
 btn.addEventListener("click",()=>{
     let poe = 0;
-    let anime = setInterval(animate,5);
+    let anime = setInterval(animate,8);
     
     function animate(){
         if(poe == 400){
