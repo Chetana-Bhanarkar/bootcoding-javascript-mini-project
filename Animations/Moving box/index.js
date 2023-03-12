@@ -22,6 +22,9 @@ btn.addEventListener("click", () => {
         }
     }
 
+    function animee() {
+        
+    }
     
 })
 
