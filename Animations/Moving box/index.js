@@ -24,7 +24,7 @@ btn.addEventListener("click", () => {
 
     function animee() {
         if (poe == 400) {
-            
+            clearInterval(anim);
         } else {
             poe++;
             yellowElement.style.bottom = poe + "px";
