@@ -1,8 +1,8 @@
-.yellow{
+.black{
     margin: auto;
     width: 450px;
     height: 450px;
-    background: yellow;
+    background:black;
     position: relative;
 }
 
@@ -13,8 +13,8 @@
     position: absolute;
     top : 0px;
     left: 0px;
-    border-radius: 50%;
 }
+
 
 button{
     margin :10px 43%;
