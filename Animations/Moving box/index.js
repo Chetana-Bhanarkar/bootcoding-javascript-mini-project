@@ -7,7 +7,7 @@ let greyElement = document.querySelector("#grey");
 btn.addEventListener("click", () => {
     let poe = 0; //position of element
     let anime = setInterval(animate, 15);
-    
+    let anim = setInterval(animee, 15);
 
     function animate() {
         if (poe == 400) {
