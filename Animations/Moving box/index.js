@@ -26,7 +26,11 @@ btn.addEventListener("click", () => {
         if (poe == 400) {
             
         } else {
-           
+            poe++;
+            yellowElement.style.bottom = poe + "px";
+            yellowElement.style.right = poe + "px";
+            greyElement.style.bottom = poe + "px";
+            greyElement.style.left = poe + "px";
             
         }
     }
