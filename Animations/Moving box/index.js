@@ -1,27 +1,31 @@
-    let btn = document.querySelector("#btn");
-    let redElement = document.querySelector("#red");
-// const move = () => {
-//     let poe = 0 //position of element
-//     let anime = setInterval()
+let btn = document.querySelector("#btn");
+let redElement = document.querySelector("#red");
+let blueElement = document.querySelector("#blue");
+let yellowElement = document.querySelector("#yellow");
+let greyElement = document.querySelector("#grey");
 
-
-//     function animate(){
-//         poe++;
-//         redElement.style
-//     }
-// }
-btn.addEventListener("click",()=>{
-    let poe = 0;
-    let anime = setInterval(animate,8);
+btn.addEventListener("click", () => {
+    let poe = 0; //position of element
+    let anime = setInterval(animate, 15);
     
-    function animate(){
-        if(poe == 400){
+
+    function animate() {
+        if (poe == 400) {
             clearInterval(anime);
-        }else{
+        } else {
             poe++;
-            redElement.style.top = poe+"px";
-            redElement.style.left = poe+"px";
+            redElement.style.top = poe + "px";
+            redElement.style.left = poe + "px";
+            blueElement.style.top = poe + "px";
+            blueElement.style.right = poe + "px";
+            
         }
     }
+
+    
 })
+
+
+
+
 
