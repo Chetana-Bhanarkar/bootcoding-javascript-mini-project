@@ -23,7 +23,12 @@ btn.addEventListener("click", () => {
     }
 
     function animee() {
-        
+        if (poe == 400) {
+            
+        } else {
+           
+            
+        }
     }
     
 })
