@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dosis:wght@200&family=Golos+Text:wght@500&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300&family=Noto+Sans+JP:wght@500&family=Oswald:wght@500&family=Poppins:wght@300;400;500;600;700;800;900&family=Rampart+One&family=Righteous&family=Roboto+Mono:wght@700&family=Roboto+Slab:wght@200&family=Shantell+Sans:wght@300&family=Tilt+Prism&family=Ubuntu:wght@300&display=swap');
+.page{
+    height: 100%;
+    border: 2px solid #865DFF;
+    width: 80vw ;
+    margin: 70px auto;
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: none;
+}
+.title{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 45px;
+    margin: 0;
+    padding: none;
+    letter-spacing: 7px;
+}
+img{
+  height: 100px;
+  width: 100px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 20px;
+    padding: 10px;
+  }
+  .flex-container > div {
+    width: 50%;
+    /* margin: 10px; */
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid #865DFF;
+    margin: 20px 50px;
+    padding:0 70px;
+    border-radius: 10px;
+  }
+  .name1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: -20px;
+  }
+  .name2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: -20px;
+  }
+  .flex-container div button{
+    width: 80px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 80px;
+    box-shadow: #000;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+  }
+  .flex-container .team1 .score01 {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #865DFF;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .team1 .score01 .score1 {
+    font-size: 150px;
+    margin-top: 80px;
+  }
+  .flex-container .team2 .score02 {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #865DFF;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .team2 .score02 .score2 {
+    font-size: 150px;
+    margin-top: 80px;
+  }
+  .score01,.score02{
+    background: #865DFF;
+    color: #fff;
+  }
+  .btn button{
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    /* margin: 10px auto; */
+    cursor: pointer;
+  }
+  .flex-container .team1 hr{
+    height: 1px;
+    background-color: #865DFF;
+    border: none;
+    margin-inline-start:0.5rem;
+    margin-inline-end: 0.5rem;
+  }
+  .flex-container .team2 hr{
+    height: 1px;
+    background-color: #865DFF;
+    border: none;
+    margin-inline-start:0.5rem;
+    margin-inline-end: 0.5rem;
+  }
+  .page hr{
+    height: 1px;
+    background-color: #865DFF;
+    border: none;
+    margin-inline-start:3.5rem;
+    margin-inline-end: 3.5rem;
+  }
+  .btn{
+    margin-left: 440px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .btn button{
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+  }
+  button{
+    cursor: pointer;
+  }
+
+ 
+  .win-line{
+    color: white;
+    display: none;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .winning{
+    font-style : italic;
+    font-weight: bold;
+  }
