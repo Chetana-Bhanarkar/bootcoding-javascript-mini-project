@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Score board</title>
+</head>
+<body style="background-color: #000;">
+    <div class="page">
+        <h1 class="heading" style="color: #fff;">Basketball Association Bhandara</h1>
+        <h1 class="title" style="color: #fff;">Score Board</h1>
+        <hr>
+        <section>
+            <div class="flex-container">
+                <div class="team1">
+                    <p class="name1" style="color: #EF5B0C;text-transform: uppercase;"></p>
+                    <hr>
+                    <div  class="score01">
+                        <h1 id="home-btn" class="score1">0</h1>
+                    </div>
+                    <div class="buttons">
+                        <button id="btn-one" style="background: #19A7CE;" onclick="homeIncrement(1)">+1</button>
+                        <button id="btn-two" style="background-color: #146C94;" onclick="homeIncrement(2)">+2</button>
+                        <button id="btn-three" style="background:#4D4D4D;" onclick="homeIncrement(3)">+3</button>
+                    </div>
+                </div>
+                <div class="team2">
+                    <p class="name2" style="color: #EF5B0C;text-transform:uppercase;"></p>
+                    <hr>
+                    <div  class="score02">
+                        <h1 id="guest-btn" class="score2">0</h1>
+                    </div>
+                    <div class="buttons">
+                        <button id="btn-one" style="background: #19A7CE;" onclick="guestIncrement(1)">+1</button>
+                        <button id="btn-two" style="background-color: #146C94;" onclick="guestIncrement(2)">+2</button>
+                        <button id="btn-three" style="background:#4D4D4D;" onclick="guestIncrement(3)">+3</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="btn">
+            <button style="background-color: #54B435;" onclick="clearPoints()">Start Game</button>
+            <button style="background: #E14D2A;" onclick="endGame()">End Game</button>
+        </div>
+        <p class="win-line">Team "<span class="winning"></span>" win the game !!!</p>
+        <p style="color: #fff;text-align: center; margin-right: 2px;">@<i class="fa fa-copyright" aria-hidden="true"></i> made by akash khot</p>
+    </div>
+</body>
+</html>
