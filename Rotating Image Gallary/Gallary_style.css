@@ -1,0 +1,133 @@
+/* .container1 {
+    position: relative;
+    width: 400px;
+    margin: 200px 300px ;
+}
+
+.container1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: rotateY(calc(var(--i) * 45deg))
+                translateZ(400px);
+    display: inline-block;
+}
+
+.container1  img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500px;
+    height: 300px;
+}
+
+.btns{
+    position: relative;
+    width: 80%;
+}
+
+.btn{
+    position: absolute;
+    bottom: -200px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev{
+    left: 20%;
+}
+
+.next{
+    right:20%
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+.btn:hover{
+    filter: brightness(1.5);
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #080000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY('0deg');
+    transition: transform 1.5s ease-in-out;
+}
+
+.container span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+}
+
+.container span img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.btns{
+    position: relative;
+    width: 80%;
+}
+
+.btn{
+    position: absolute;
+    bottom: -80;
+    background-color: rgba(25, 186, 52, 0.637);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 05px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: brightness(1.5);
+    
+}
+
+.btn:active{
+    border: none;
+}
+
+.prev{
+    left: 40%;
+}
+
+.next{
+    right: 40%;
+}
