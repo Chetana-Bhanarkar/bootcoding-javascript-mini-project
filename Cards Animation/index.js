@@ -9,6 +9,7 @@ panels.forEach(panel=>{
 });
 
 
+
 //function to remove class
 function remove(){
     panels.forEach(panel=>{
