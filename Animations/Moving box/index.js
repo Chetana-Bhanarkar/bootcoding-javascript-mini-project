@@ -10,7 +10,7 @@ btn.addEventListener("click", () => {
     let anim = setInterval(animee, 15);
 
     function animate() {
-        if (poe == 400) {
+        if (poe == 350) {
             clearInterval(anime);
         } else {
             poe++;
@@ -23,7 +23,7 @@ btn.addEventListener("click", () => {
     }
 
     function animee() {
-        if (poe == 400) {
+        if (poe == 350) {
             clearInterval(anim);
         } else {
             poe++;
