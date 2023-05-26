@@ -25,10 +25,10 @@ prev.addEventListener('click', () => {
 
 function update() {
     circles.forEach((circle, val) => {
-        if (val < currentActive) {
+        if (val < currentActive){
             circle.classList.add('active');
         }
-        else {
+        else{
             circle.classList.remove('active');
         }
     })
