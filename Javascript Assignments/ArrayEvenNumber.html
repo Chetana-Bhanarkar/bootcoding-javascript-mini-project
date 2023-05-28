@@ -13,10 +13,16 @@
 10, 15, 20, 25, 35, 75, 80, 95 -->
     <script>
         let arr = [10,15,20,25,35,75,80,95,99,0];
-        let y = [];
+        let even = [];
+        let odd = [];
         for(let i=0; i<=arr.length; i++){
             if(arr[i]%2===0){
-                y.push(arr[i]);
+                even.push(arr[i]);
+            }
+        }
+        for(let i=0; i<=arr.length; i++){
+            if(arr[i]%2!=0){
+                odd.push(arr[i]);
             }
         }
         console.log(y);
