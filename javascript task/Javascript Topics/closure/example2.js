@@ -6,7 +6,15 @@
 
 const calculation = ()=>{
     var a = 10 ; 
-   
+    const multiply = () => {
+        var b = 20 ; 
+        return a * b ; 
+    }
+    function result(){
+        console.log(multiply());
+    }
+
+    result() ; 
 }
 
 calculation()
