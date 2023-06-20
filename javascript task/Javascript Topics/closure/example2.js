@@ -4,3 +4,9 @@
 
 
 
+const calculation = ()=>{
+    var a = 10 ; 
+   
+}
+
+calculation()
