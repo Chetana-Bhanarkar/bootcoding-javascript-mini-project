@@ -5,11 +5,14 @@
 
 const prom = (complete) => {
     return new Promise((resolve, reject) => {
+       console.log('Fetching data...');
+       setTimeout(()=>{
         if(complete) {
             resolve('i am successfull');
         }else{
             reject("i am failure")
         }
+       },2000)
     })
 }
 
@@ -23,4 +26,3 @@ let onRejection = (error) => {
 
 
 prom(true).then(onFulfillment).catch(onRejection);
-console.log(prom);
