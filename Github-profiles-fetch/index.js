@@ -58,6 +58,8 @@ function createUserCard(user) {
 
 }
 
+
+//if any error will be occur then error will show
 function createErrorCard(msg) {
     const cardHTML = `
         <div class="card">
