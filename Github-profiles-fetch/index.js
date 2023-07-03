@@ -20,6 +20,7 @@ async function getUser(username) {
     }
 }
 
+//get repository of the user
 async function getRepos(username) {
     try {
         const { data } = await axios(APIURL + username + '/repos?sort=created')
