@@ -86,6 +86,8 @@ function addReposToCard(repos) {
     })
 }
 
+
+// add submit event listener on button
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 
