@@ -70,6 +70,8 @@ function createErrorCard(msg) {
     main.innerHTML = cardHTML
 }
 
+
+// show some amount of repository on card
 function addReposToCard(repos) {
     const reposEl = document.getElementById('repos')
 
