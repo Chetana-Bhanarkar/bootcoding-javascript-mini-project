@@ -31,6 +31,8 @@ async function getRepos(username) {
     }
 }
 
+
+//create a card or ui
 function createUserCard(user) {
     const userID = user.name || user.login
     const userBio = user.bio ? `<p>${user.bio}</p>` : ''
